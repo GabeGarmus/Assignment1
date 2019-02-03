@@ -1,0 +1,46 @@
+A) On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ 
+B) 4 commits using: git shortlog
+
+C) Thu Jan 10 16:45:38 2019  command: git log .gitignore
+
+ D) Branching allows us to merge later,
+	it also allows to switch back to previous code
+	 without having to revert all the work
+
+  E) git log shows commit logs, while git status displayes working tree status
+  F) git log --follow -p Weapon.h
+G) git log--grep="file"
+H)
+	 inheritance allows to branch off from a single object to more
+	 specific objects using the characteristics from its superclass
+
+	 Polymorphism is ability to call a function name and it'll return the
+	 correct info based on the paramaters passed in.
+
+	 Encapsulation is having private data that can only be manipulated
+	 and obtained thru public functions
+
+I) The main difference between Integration Manager workflow and Dictator and
+	Lieutenats workflow is that in the Integration Manager the developers
+	have a private repository, and that they push to a single manager
+	instead of assigned lieutenant.
+
+J) A team of 100 developers would benefit from the Dictator and Lietenatns
+	workflow because there would be a set amount of leutenants that
+	merge changes, and solve the developer issues, rather than each
+	developer pushing to a single giant cluster of files.
+
+5)
+    The RoleGame is using Polymorphism because no matter what weapon we pass in it
+    returns the corresponding results. For example all we have to pass in is the
+    weapon name and the program will figure out the corresponding hit function.
