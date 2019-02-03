@@ -1,4 +1,4 @@
-
+//Gabrielius Garmus
 /* 
  * File:   main.cpp
  * Author: Javier <jrescobara@gmail.com> 
@@ -29,7 +29,7 @@ void simulateWeapon(Weapon * weapon, double armor) {
  */
 int main(int argc, char** argv) {
 
-    double armor = 29;
+    double armor = 31;
 
     Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
     simulateWeapon(weapon, armor);
@@ -38,6 +38,19 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+
+    // testing SimpleHammer
+    weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+    simulateWeapon(weapon,armor);
+    delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("crazy sword");
+    simulateWeapon(weapon,armor);
+    delete (weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("cross bow");
+    simulateWeapon(weapon,armor);
+    delete (weapon);
 
     return 0;
 }
